@@ -29,7 +29,6 @@ span {
 nav {
   text-align: center;
   background-color: #ffffff;
-  
 }
 
 nav span {
@@ -45,6 +44,7 @@ button {
   font-weight: 700;
   font-size: 1.0rem;
   padding: 5px;
+  outline-style: none;
 }
 
 button:hover,
@@ -54,7 +54,7 @@ button:hover,
 }
 
 .content {
-  margin: 0 auto;
+  margin: 10px auto;
   width: 460px;
   color: #ffffff;
 }
@@ -65,4 +65,5 @@ button:hover,
   height: 130px;
   border-radius: 15px;
   margin: 1.66%;
+  transition: background 0.4s linear;
 }
