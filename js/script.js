@@ -34,7 +34,6 @@ for (let i = 0; i < numsOfColor; i++){
 buttonNewColor.addEventListener("click", function () {
     reset();
     buttonNewColor.innerText = "NEW COLORS";
-    
 });
 
 buttonEasy.addEventListener("click", function () {
