@@ -28,7 +28,6 @@ h1 span {
 
 nav {
   text-align: center;
-  font-size: 1.0rem;
   background-color: #ffffff;
 }
 
@@ -43,7 +42,6 @@ button {
   background-color: #ffffff;
   text-transform: uppercase;
   font-weight: 700;
-  
   padding: 5px;
   outline-style: none;
 }
@@ -60,11 +58,13 @@ button:hover,
   color: #ffffff;
 }
 
-.color {
+.square {
   float: left;
   width: 30%;
   height: 130px;
   border-radius: 15px;
   margin: 1.66%;
-  transition: background 0.4s linear;
+  transition: background 0.4s;
+  -webkit-transition: background 0.4s;
+  -moz-transition: background 0.4s;
 }
