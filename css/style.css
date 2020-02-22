@@ -21,13 +21,14 @@ h1 {
   text-transform: uppercase;
 }
 
-span {
+h1 span {
   display: block;
   font-size: 3.2rem;
 }
 
 nav {
   text-align: center;
+  font-size: 1.0rem;
   background-color: #ffffff;
 }
 
@@ -42,7 +43,7 @@ button {
   background-color: #ffffff;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 1.0rem;
+  
   padding: 5px;
   outline-style: none;
 }
