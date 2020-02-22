@@ -19,10 +19,12 @@ for (let i = 0; i < numsOfColor; i++){
     divs[i].addEventListener("click", function (event) {
         if (event.target.style.backgroundColor !== guessColor) {
             event.target.style.backgroundColor = "rgb(0, 0, 0)";
+            messageDisplay.innerText = "Try again!";
         } else {
             for (let i = 0; i < numsOfColor; i++){
                 divs[i].style.backgroundColor = guessColor;
                 header.style.backgroundColor = guessColor;
+                messageDisplay.innerText = "You Are Win!";
             }
             buttonNewColor.innerText = "Play Again!";
         }
@@ -65,6 +67,7 @@ function reset() {
         divs[i].style.backgroundColor = colors[i];
     }
     header.style.backgroundColor = "#3C75AD";
+    messageDisplay.innerText = "";
 }
 
 function getRandomColors() {
